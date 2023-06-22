@@ -73,6 +73,11 @@
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.numericUpDown1.Location = new System.Drawing.Point(120, 181);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            23,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(110, 34);
             this.numericUpDown1.TabIndex = 2;
@@ -81,6 +86,11 @@
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.numericUpDown2.Location = new System.Drawing.Point(120, 241);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            59,
+            0,
+            0,
+            0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(110, 34);
             this.numericUpDown2.TabIndex = 3;

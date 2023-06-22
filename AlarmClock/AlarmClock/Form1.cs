@@ -16,6 +16,9 @@ namespace AlarmClock
             this.BackColor = Color.AliceBlue;
             button1.BackColor = Color.LightSteelBlue;
 
+            numericUpDown1.Maximum = 23;
+            numericUpDown2.Maximum = 59;
+
             this.Width = 500;
             this.Height = 500;
 
